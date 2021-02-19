@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>moji: manage your emojis</title>
+		<meta charset="utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <div class="d-flex align-items-start">
+			<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+			  <button class="nav-link" id="recent-pill" data-bs-toggle="pill" data-bs-target="#recent-tab" type="button" role="tab" aria-controls="recent-pill" aria-selected="false">Recent</buttona>
+			  <button class="nav-link active" id="faces-pill" data-bs-toggle="pill" data-bs-target="#faces-tab" type="button" role="tab" aria-controls="faces-pill" aria-selected="true">Faces</button>
+			  <button class="nav-link" id="hands-pill" data-bs-toggle="pill" data-bs-target="#hands-tab" type="button" role="tab" aria-controls="hands-pill" aria-selected="false">Hands</button>
+			  <button class="nav-link" id="animals-pill" data-bs-toggle="pill" data-bs-target="#animals-tab" type="button" role="tab" aria-controls="animals-pill" aria-selected="false">Animals</button>
+			  <button class="nav-link" id="food-pill" data-bs-toggle="pill" data-bs-target="#food-tab" type="button" role="tab" aria-controls="food-pill" aria-selected="false">Food</button>
+			  <button class="nav-link" id="misc-pill" data-bs-toggle="pill" data-bs-target="#misc-tab" type="button" role="tab" aria-controls="misc-pill" aria-selected="false">Misc</button>
+			  <button class="nav-link" id="custom-pill" data-bs-toggle="pill" data-bs-target="#custom-tab" type="button" role="tab" aria-controls="custom-pill" aria-selected="false">Custom</button>
+			</div>
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane fade" id="recent-tab" role="tabpanel" aria-labelledby="recent-tab">You are Home!</div>
+				<div class="tab-pane fade show active" id="faces-tab" role="tabpanel" aria-labelledby="faces-tab">
+					<image src="https://i.stack.imgur.com/3nKkw.png" width="550px">
+				</div>
+				<div class="tab-pane fade" id="hands-tab" role="tabpanel" aria-labelledby="hands-tab">
+					  <image src="https://i.stack.imgur.com/A9m9s.png" width="500px">
+				</div>
+				<div class="tab-pane fade" id="animals-tab" role="tabpanel" aria-labelledby="animals-tab">
+					  <image src="https://i.stack.imgur.com/4t6NW.png" width="550px">
+				</div>			
+				<div class="tab-pane fade" id="food-tab" role="tabpanel" aria-labelledby="food-tab">food</div>
+				<div class="tab-pane fade" id="misc-tab" role="tabpanel" aria-labelledby="misc-tab">misc</div>
+				<div class="tab-pane fade" id="custom-tab" role="tabpanel" aria-labelledby="custom-tab">custom</div>
+		  	</div>
+		</div>
+	</body>
+</html>
