@@ -1,0 +1,8 @@
+.emoji{font-size:x-large;
+    background: whitesmoke;
+    cursor:pointer;
+    max-width:600px;
+    padding: 5px;
+}
+
+.alert{font-size:small;display:none;visibility:hidden;}
